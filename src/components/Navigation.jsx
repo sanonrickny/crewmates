@@ -4,7 +4,9 @@ function Navigation() {
   return (
     <nav className="navigation">
       <h1>
-        <a href="/">Crewmates App</a>
+        <a href="/" className="logo">
+          Crewmates App
+        </a>
       </h1>
       <div className="nav-links">
         <Link to="/">Home</Link>

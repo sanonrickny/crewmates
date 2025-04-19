@@ -3,7 +3,7 @@ import supabase from "../supabaseClient";
 import CrewmateCard from "../components/CrewmateCard";
 
 function CrewmateGallery() {
-  const [crewmates, setCrewmates] = useState([]);
+  const [crewmates, setCrewmates] = useState([]); // Fixed state declaration
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
